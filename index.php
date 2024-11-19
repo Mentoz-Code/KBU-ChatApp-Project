@@ -35,7 +35,7 @@
 
                 <div class="field image">
                     <label>Profile Picture</label>
-<!--                                                   v this makes it so that it only accepts these extentions-->
+                                                         <!-- v this makes it so that it only accepts these extentions-->
                     <input type="file" name="image" accept="image/x-png,image/gif,image/jpeg,image/jpg" required>
                 </div>
 
@@ -48,5 +48,10 @@
             <div class="link">Already a member? <a href="login.php">Login</a></div>
         </section>
     </div>
+
+    <!-- this js will just add functionality to the eye... -->
+    <script src="js/pass-show-hide.js"></script>
+    <!-- this js will handle the signup... error text / continue button -->
+    <script src="js/signup.js"></script>
 </body>
 </html>
