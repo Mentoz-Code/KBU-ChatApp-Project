@@ -15,8 +15,10 @@ continueBtn.onclick = ()=>{
     xhr.onload = ()=>{
         //if the connection is done and successful '200'
         if(xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
-            let data = xhr.response; //either succcess or no connection to xml
-            if(data === "success") {
+            let data = xhr.response.trim(); //this is the fucking weirdest debugging session ever... IT RETURNS "Success!" AND YET I STILL HAVE TO TRIM IT!!
+            // console.log(data);//debug
+            if(data === "Success!") {
+                //alert('ok'); debugger
                 location.href = "users.php";//check location
             } else {
                 errorText.style.display = "block"; //css
