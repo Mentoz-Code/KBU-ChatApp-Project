@@ -1,4 +1,5 @@
 <?php
+    session_start();
     include_once "config.php";
 
     //ill securely get the email n pass

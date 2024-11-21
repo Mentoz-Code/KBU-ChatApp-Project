@@ -1,4 +1,5 @@
 <?php
+    session_start();
     include_once "config.php";
 
     //this function i used here 'sanitizes' the string to prepare it for querrying.
