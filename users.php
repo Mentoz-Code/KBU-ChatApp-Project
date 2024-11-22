@@ -49,6 +49,7 @@
             </div>
         </section>
     </div>
-    <!-- <script src="js/users.js"></script> -->
+    <!-- this script will add functionality to the search bar and make the list of users -->
+    <script src="js/users.js"></script>
 </body>
 </html>
